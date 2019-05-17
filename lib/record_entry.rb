@@ -2,6 +2,9 @@ require "record_entry/version"
 require "perform_operations"
 require "read_csv"
 
+# this modules processes the whole functionlity designed
+# make sure you pass operation as symbol for CLI
+# Don't forget to mention the path of CSV file in the arguments
 
 module RecordEntry
   class Error < StandardError; end

@@ -1,5 +1,7 @@
-# Reads CSV file for record entry
 require "csv"
+
+# Reads CSV file for record entry and adds them to array.
+
 module ReadCSV
   def form_csv_hash(csv)
     arr = []

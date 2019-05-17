@@ -1,5 +1,7 @@
 require "ldap"
 
+# This module performs operations such as deleting a object or adding a object
+
 module PerformOperations
   def connection
     @conn = LDAP::Conn.new(host = 'localhost', port = LDAP_PORT)
